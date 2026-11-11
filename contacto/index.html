@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Tu espacio Musical</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+
+<body>
+
+    <nav class="spotify-nav">
+        <a href="../index.html" class="brand-logo">Tu espacio Musical</a>
+        <ul class="nav-menu">
+            <li><a href="../index.html" class="nav-link">Inicio</a></li>
+            <li><a href="../artistas/index.html" class="nav-link">Artistas</a></li>
+            <li><a href="../canciones-favoritas/index.html" class="nav-link">Top Canciones</a></li>
+            <li><a href="index.html" class="nav-link active">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <header class="hero-header">
+        <h1>Contacto y Sugerencias</h1>
+        <p>Escríbenos tu sugerencia de canción o artista favorito.</p>
+    </header>
+
+    <main class="main-container">
+
+        <div class="song-grid">
+
+            <div class="song-card">
+                <h2 class="song-title" style="margin-bottom: 1rem;">Envíanos un Mensaje</h2>
+                <form>
+                    <div style="margin-bottom: 1rem;">
+                        <label style="display: block; color: var(--text-muted); margin-bottom: 0.3rem;">Nombre
+                            Completo</label>
+                        <input type="text" placeholder="Tu nombre"
+                            style="width: 100%; padding: 10px; background: var(--bg-dark); border: 1px solid rgba(255,255,255,0.1); color: #fff; border-radius: 8px;">
+                    </div>
+                    <div style="margin-bottom: 1rem;">
+                        <label style="display: block; color: var(--text-muted); margin-bottom: 0.3rem;">Correo
+                            Electrónico</label>
+                        <input type="email" placeholder="correo@gmail.com"
+                            style="width: 100%; padding: 10px; background: var(--bg-dark); border: 1px solid rgba(255,255,255,0.1); color: #fff; border-radius: 8px;">
+                    </div>
+                    <div style="margin-bottom: 1rem;">
+                        <label style="display: block; color: var(--text-muted); margin-bottom: 0.3rem;">Mensaje</label>
+                        <textarea rows="4" placeholder="Escribe tu sugerencia de canción..."
+                            style="width: 100%; padding: 10px; background: var(--bg-dark); border: 1px solid rgba(255,255,255,0.1); color: #fff; border-radius: 8px;"></textarea>
+                    </div>
+                    <button type="button" class="nav-link"
+                        style="width: 100%; background: var(--accent-mint); color: #000; border: none; padding: 12px; font-weight: bold; cursor: pointer;">Enviar</button>
+                </form>
+            </div>
+
+            <div style="display: flex; flex-direction: column; gap: 1.5rem;">
+                <div class="song-card">
+                    <div class="song-title">Correo Oficial</div>
+                    <div class="artist-name" style="margin-top: 0.5rem;">TuEspacioMusical@gmail.com</div>
+                </div>
+
+                <div class="song-card" style="text-align: center; padding: 1.5rem;">
+                    <img src="https://i.pinimg.com/736x/e7/ed/63/e7ed632c6e9c2bc5b7d6751f69f5c3d0.jpg"
+                        alt="Perfil de Spotify" class="artist-img"
+                        style="width: 110px; height: 110px; border-radius: 50%; object-fit: cover; margin: 0 auto 1rem auto; border: 2px solid var(--accent-mint);">
+
+                    <div class="song-title">Perfil de Spotify</div>
+                    <div class="artist-name"
+                        style="margin-top: 0.25rem; font-size: 0.95rem; color: var(--accent-lavender);">
+                        @Tu Espacio Musical :)
+                    </div>
+
+                    <p style="margin: 0.8rem 0 1.2rem 0; font-size: 0.85rem; color: #b3b3b3;">
+                        Sigue nuestras listas de reproducción oficiales y descubre lo que escuchamos en vivo.
+                    </p>
+
+                    <a href="https://open.spotify.com/user/31jer5ayi5p2fqxzxzsyywhl5ciq" target="_blank"
+                        rel="noopener noreferrer" class="nav-link"
+                        style="display: inline-block; background-color: var(--accent-mint); color: #000; font-weight: bold; padding: 10px 22px; border-radius: 25px; text-decoration: none; transition: transform 0.2s ease;">
+                        ▶ Seguir en Spotify
+                    </a>
+                </div>
+            </div>
+
+        </div>
+
+    </main>
+
+</body>
+
+</html>
